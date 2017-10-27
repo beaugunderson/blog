@@ -1,0 +1,57 @@
+* {
+   text-rendering: optimizeLegibility;
+}
+
+body {
+   padding-left: 4em;
+   padding-top: 2em;
+   padding-bottom: 2em;
+   padding-right: 5em;
+   font-family: "Museo300";
+   font-size: 1.5em;
+}
+
+h1 {
+   background-color: #cc0000;
+   color: white;
+   padding: 0.1em;
+   display: inline-block;
+   margin-bottom: 0;
+
+   a:hover, a:visited {
+    color: white;
+   }
+}
+
+h1, h2, h3 {
+   font-family: "MuseoSlab500";
+}
+
+*::selection {
+   background: #cc0000;
+   color: #fff;
+}
+
+a {
+   color: #cc0000;
+   text-decoration: none;
+   padding: 2px;
+
+  &:visited {
+     color: #aaa;
+  }
+
+  &:hover {
+     background-color: #cc0000;
+     color: white;
+  }
+}
+
+.rss {
+  border-top: 1px solid #cc0000;
+  padding-top: 0.5em;
+}
+
+.container {
+  max-width: 40em;
+}
